@@ -1,0 +1,36 @@
+
+
+body{
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+
+
+.Hello{
+    color: aquamarine;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    font-size: 3em;
+}
+.border{
+    border: 10px solid black;
+    animation: border 2s linear alternate infinite;
+  
+}
+
+@keyframes border{
+    from{
+        width: 0%;
+        border: 10px solid rgb(184, 247, 247);
+
+    }
+    to{
+        width: 50%;
+        border: 10px solid aquamarine;
+    }
+    to{
+        width: 100%;
+    }
+    
+}
