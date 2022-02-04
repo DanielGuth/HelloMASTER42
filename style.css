@@ -28,18 +28,3 @@ body{
   
 }
 
-@keyframes border{
-    from{
-        width: 0%;
-        border: 10px solid rgb(184, 247, 247);
-
-    }
-    to{
-        width: 50%;
-        border: 10px solid aquamarine;
-    }
-    to{
-        width: 100%;
-    }
-    
-}
